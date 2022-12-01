@@ -256,7 +256,7 @@ span.psw {
 <div id="timer2" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button  onclick="myFunction();">Start Examination </button>
 
  </div>
 
@@ -267,7 +267,7 @@ span.psw {
 <div id="timer2" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button  onclick="myFunction();">Start Examination </button>
       
     </div>
     
@@ -278,7 +278,29 @@ span.psw {
 <div id="timer2" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button  onclick="myFunction();;">Start Examination </button>
+
+ </div>
+ 
+ 
+  <div class="container" style="background-color:#F0FFF0">
+      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+     
+<div id="timer2" style="padding-top: 10px;"></div>
+<label><b> Left on This device for your Licence to Expire</b></label>
+
+<button  onclick="myFunction();">Start Examination </button>
+      
+    </div>
+    
+    
+    <div class="container" style="background-color:#F0F8FF">
+      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+     
+<div id="timer2" style="padding-top: 10px;"></div>
+<label><b> Left on This device for your Licence to Expire</b></label>
+
+<button  onclick="myFunction();">Start Examination </button>
 
  </div>
  
@@ -304,7 +326,6 @@ span.psw {
 
  </div>
  
- 
   <div class="container" style="background-color:#F0FFF0">
       <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
@@ -322,28 +343,7 @@ span.psw {
 <div id="timer2" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
-
- </div>
- 
-  <div class="container" style="background-color:#F0FFF0">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
-     
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
-
-<button  onclick="return postToGoogle();">Start Examination </button>
-      
-    </div>
-    
-    
-    <div class="container" style="background-color:#F0F8FF">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
-     
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
-
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button  onclick="myFunctionprompt()"> by subscriprtion </button>
 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">GO HOME</button>
  </div>
     
@@ -478,7 +478,16 @@ const url = base + '&tq=' + query;
      
      
       
-    }
+    } 
+    
+    
+    
+    function myFunctionprompt() {
+  let person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    alert(" well inserted");
+  }
+}
     
     
 function myFunction() {
@@ -596,7 +605,7 @@ function postToGoogle() {
                         
                          document.getElementById('success-msg').style.display='block';
                          document.getElementById('id01').style.display='none';
-    
+   
 							
 						}
                 });

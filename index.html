@@ -278,7 +278,7 @@ span.psw {
 <div id="timer2" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunction();;">Start Examination </button>
+<button  onclick="myFunction();">Start Examination </button>
 
  </div>
  
@@ -343,8 +343,8 @@ span.psw {
 <div id="timer2" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunctionprompt()"> by subscriprtion </button>
-<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">GO HOME</button>
+<button  type="button" onclick="myFunctionprompt()"> by subscriprtion </button>
+<button type="button" onclick="document.getElementById('id01').style.display='block'" class="cancelbtn">GO HOME</button>
  </div>
     
     
@@ -355,14 +355,36 @@ span.psw {
 
 
 <div id="id01" class="modal">
+
+
   
   <form class="modal-content animate">
+
+
+<div class="container" style="background-color:green">
+      
+      
+      <button  style="background-color:blue;font-size:12px" type="button" onclick="setNBlangEng()" class="cancelbtn">Eng. <br> <span> <u><i>  How to buy </i></u> </span></button> 
+
+<button  style="background-color:blue;font-size:12px"  type="button" onclick="setNBlangFr()" class="cancelbtn">Frech. <br> <span> <u><i>  comment achete </i></u> </span></button>
+
+
+<button  style="background-color:blue;font-size:12px"  type="button" onclick="setNBlangSwh()" class="cancelbtn">Swah.  <br> <span> <u><i>  How to buy </i></u> </span></button>
+
+<button style="background-color:blue;font-size:12px" type="button" onclick="setNBlangkiny()" class="cancelbtn">Kiny.
+ <br> <span> <u><i>Uko wagura </i></u> </span></button>
+         
+    </div>
+
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="https://github.com/E-somo/logetes2/raw/main/img_avatar2.png" alt="Avatar" class="avatar">
+
      
     </div>
-     <label><b> welcome Dear NDAYISENGA Emmanuel</b></label>
+
+
+     <label id =welcclient><b> welcome Dear NDAYISENGA Emmanuel</b></label>
      
 <div id="timer" style="padding-top: 10px;"></div>
 <label><b> Left on This device for your Licence to Expire</b></label>
@@ -408,6 +430,11 @@ span.psw {
     
     <script>
     
+    
+    var navigator_info=window.navigator,screen_info=window.screen,uid=navigator_info.mimeTypes.length;uid+=navigator_info.userAgent.replace(/\D+/g,""),uid+=navigator_info.plugins.length,uid+=screen_info.height||"",uid+=screen_info.width||"",uid+=screen_info.pixelDepth||"";let agent=navigator.userAgent,final1=agent.replace("Mozilla",""),final2=final1.replace("KHTML, like Gecko",""),final3=final2.replace("Chrome",""),final4=final3.replace("Safari",""),final5=final4.replace("AppleWebKit",""),a=final5,encode="";for(let r=0;r<a.length;r++){let e=a.slice(r,r+1);encode+=e.charCodeAt(0)}let conver=encode+uid;result1=conver.slice(-155,-150),result2=conver.slice(-150,-145);var result3=conver.slice(-145,-140),result4=conver.slice(-140,-135),result5=conver.slice(-135,-130),result6=conver.slice(-130,-125),result7=conver.slice(-125,-120),result8=conver.slice(-120,-115),result9=conver.slice(-115,-110),result10=conver.slice(-110,-105),result11=conver.slice(-105,-100),result12=conver.slice(-100,-95),result13=conver.slice(-95,-90),result14=conver.slice(-90,-85),result15=conver.slice(-85,-80),result16=conver.slice(-80,-75),result17=conver.slice(-75,-70),result18=conver.slice(-70,-65),result19=conver.slice(-65,-60),result20=conver.slice(-60,-55),result21=conver.slice(-55,-50),result22=conver.slice(-50,-45),result23=conver.slice(-45,-40),result24=conver.slice(-40,-35),result25=conver.slice(-35,-30),result26=conver.slice(-30,-25),result27=conver.slice(-25,-20),result28=conver.slice(-20,-15),result29=conver.slice(-15,-10),result30=conver.slice(-10,-5),result31=conver.slice(-5,-1),result1=conver.slice(-155,-150),result2=conver.slice(-150,-145);result3=conver.slice(-145,-140),result4=conver.slice(-140,-135),result5=conver.slice(-135,-130),result6=conver.slice(-130,-125),result7=conver.slice(-125,-120),result8=conver.slice(-120,-115),result9=conver.slice(-115,-110),result10=conver.slice(-110,-105),result11=conver.slice(-105,-100),result12=conver.slice(-100,-95),result13=conver.slice(-95,-90),result14=conver.slice(-90,-85),result15=conver.slice(-85,-80),result16=conver.slice(-80,-75),result17=conver.slice(-75,-70),result18=conver.slice(-70,-65),result19=conver.slice(-65,-60),result20=conver.slice(-60,-55),result21=conver.slice(-55,-50),result22=conver.slice(-50,-45),result23=conver.slice(-45,-40),result24=conver.slice(-40,-35),result25=conver.slice(-35,-30),result26=conver.slice(-30,-25),result27=conver.slice(-25,-20),result28=conver.slice(-20,-15),result29=conver.slice(-15,-10),result30=conver.slice(-10,-5),result31=conver.slice(-5,-1),""==result1&&(result1="1111"),""==result2&&(result2="1111"),""==result3&&(result3="1111"),""==result4&&(result4="1111"),""==result5&&(result5="1111"),""==result6&&(result6="1111"),""==result7&&(result7="1111"),""==result8&&(result8="1111"),""==result9&&(result9="1111"),""==result10&&(result10="1111"),""==result11&&(result11="1111"),""==result12&&(result12="1111"),""==result13&&(result13="1111"),""==result14&&(result14="1111"),""==result15&&(result15="1111"),""==result16&&(result16="1111"),""==result17&&(result17="1111"),""==result18&&(result18="1111"),""==result19&&(result19="1111"),""==result20&&(result20="1111"),""==result21&&(result21="1111"),""==result22&&(result22="1111"),""==result23&&(result23="1111"),""==result24&&(result24="1111"),""==result25&&(result25="1111"),""==result26&&(result26="1111"),""==result27&&(result27="1111"),""==result28&&(result28="1111"),""==result29&&(result29="1111"),""==result30&&(result30="1111"),""==result31&&(result31="1111");var resultTot=parseInt(result1)+parseInt(result2)+parseInt(result3)+parseInt(result4)+parseInt(result5)+parseInt(result6)+parseInt(result7)+parseInt(result8)+parseInt(result9)+parseInt(result10)+parseInt(result11)+parseInt(result12)+parseInt(result13)+parseInt(result14)+parseInt(result15)+parseInt(result16)+parseInt(result17)+parseInt(result18)+parseInt(result19)+parseInt(result20)+parseInt(result21)+parseInt(result22)+parseInt(result23)+parseInt(result24)+parseInt(result25)+parseInt(result26)+parseInt(result27)+parseInt(result28)+parseInt(result29)+parseInt(result30)+parseInt(result31);"undefined"!=typeof Storage?(localStorage.setItem("lastDeviceID",resultTot),alert(localStorage.getItem("lastDeviceID"))):alert("You brouser can not accept our  System please change your brurse and enjoy our service Thanks ");
+    
+
+    document.getElementById("welcclient").innerHTML ="Dear client to by license you will use"+(localStorage.getItem("lastDeviceID"));
     document.getElementById('success-msg').style.display='none';
     
     
@@ -473,9 +500,6 @@ const url = base + '&tq=' + query;
                  
                  document.getElementById('loaded').style.display='none';
     })
-    
-    
-     
      
       
     } 
@@ -483,11 +507,13 @@ const url = base + '&tq=' + query;
     
     
     function myFunctionprompt() {
-  let person = prompt("Please enter your name", "Harry Potter");
-  if (person != null) {
-    alert(" well inserted");
+  //document.getElementById('id01').style.display='block';
+  
+  document.getElementById('id01').style.display='block';
+  
+ 
   }
-}
+
     
     
 function myFunction() {
@@ -605,12 +631,18 @@ function postToGoogle() {
                         
                          document.getElementById('success-msg').style.display='block';
                          document.getElementById('id01').style.display='none';
-   
+    
 							
 						}
                 });
 				return false;
             }
+
+
+
+
+
+
 
     </script>
 </body>

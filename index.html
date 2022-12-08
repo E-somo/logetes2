@@ -15,7 +15,7 @@
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
-
+.text p{cursor: pointer;}
 /* Safari */
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
@@ -406,6 +406,10 @@ div.css {
      
 <div id="timerbio" style="padding-top: 10px;"></div>
 <label id="bioabone"><b> Left on This device for your Licence to Expire</b></label>
+
+<div class="text">
+<p   ><a style="background-color:powderblue;" onClick="myalert()"><u> English </u> &nbsp;&nbsp; </a> <a style="background-color:violet;" onClick="myalert()">French &nbsp;&nbsp; </a> <a  style="background-color:powderblue;" onClick="myalert()"><u>kinyarwanda</u></a></p>
+</div>
 
 <button  id="bioclick"  onclick="return postToGoogle();">Start Biology Examination </button>
 
@@ -1304,6 +1308,10 @@ alert(" final mathh "+(localStorage.getItem("lastDeviceIDFinal")));
 alert("There is a mismatch in your e-mail write it well and write your full e-mail \n \n Il y a une incohérence dans votre e-mail, écrivez-le bien en écrivant votre E-mail complet \n \nHano ntaho bihuriye na e-imeri yawe iyandike neza wandike e-imeri yawe yuzuye \n ");
 myEmail();
 }
+}
+
+function myalert(){
+alert("i will put in kinyarwanda for you dont worry ");
 }
     </script>
 </body>

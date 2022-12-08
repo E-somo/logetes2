@@ -149,24 +149,29 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+  
+   
+
+   
+  
 }
 
  
-#timer {
-  font-size: 2.5em;
+#timerbio {
+  font-size: 1.9em;
   font-weight: 60;
   color: white;
   text-shadow: 0 0 20px #48c8ff;
 }
  
-#timer div {
+#timerbio div {
   display: inline-block;
   min-width: 50px;
   background: #0d1a29;
   
 }
  
-#timer div span {
+#timerbio div span {
   color: #b1cdf1;
   display: block;
   font-size: 0.30em;
@@ -176,28 +181,186 @@ span.psw {
 
 
 
-#timer2 {
-  font-size: 2.5em;
+
+
+#timereng {
+  font-size: 1.9em;
   font-weight: 60;
   color: white;
   text-shadow: 0 0 20px #48c8ff;
 }
  
-#timer2 div {
+#timereng div {
   display: inline-block;
   min-width: 50px;
   background: #0d1a29;
   
 }
  
-#timer2 div span {
+#timereng div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.30em;
+  background: #0d1a29;
+  font-weight: 80;
+} 
+
+
+
+
+#TimerMath {
+  font-size: 1.9em;
+  font-weight: 60;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+}
+ 
+#TimerMath div {
+  display: inline-block;
+  min-width: 50px;
+  background: #0d1a29;
+  
+}
+ 
+#TimerMath div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.30em;
+  background: #0d1a29;
+  font-weight: 80;
+} 
+div.css {
+  text-align: right;
+}
+
+
+
+#TimerChem {
+  font-size: 1.9em;
+  font-weight: 60;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+}
+ 
+#TimerChem div {
+  display: inline-block;
+  min-width: 50px;
+  background: #0d1a29;
+  
+}
+ 
+#TimerChem div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.30em;
+  background: #0d1a29;
+  font-weight: 80;
+} 
+
+
+
+
+
+
+
+#TimerPhy {
+  font-size: 1.9em;
+  font-weight: 60;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+}
+ 
+#TimerPhy div {
+  display: inline-block;
+  min-width: 50px;
+  background: #0d1a29;
+  
+}
+ 
+#TimerPhy div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.30em;
+  background: #0d1a29;
+  font-weight: 80;
+} 
+
+
+
+
+
+#TimerGeo {
+  font-size: 1.9em;
+  font-weight: 60;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+}
+ 
+#TimerGeo div {
+  display: inline-block;
+  min-width: 50px;
+  background: #0d1a29;
+  
+}
+ 
+#TimerGeo div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.30em;
+  background: #0d1a29;
+  font-weight: 80;
+} 
+
+
+#timerEntre {
+  font-size: 2.5em;
+  font-weight: 60;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+}
+ 
+#timerEntre div {
+  display: inline-block;
+  min-width: 50px;
+  background: #0d1a29;
+  
+}
+ 
+#timerEntre div span {
   color: #b1cdf1;
   display: block;
   font-size: 0.30em;
   background: #0d1a29;
   font-weight: 80;
 }
+
+
+
+#timerkiny {
+  font-size: 2.5em;
+  font-weight: 60;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+}
  
+#timerkiny div {
+  display: inline-block;
+  min-width: 50px;
+  background: #0d1a29;
+  
+}
+ 
+#timerkiny div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.30em;
+  background: #0d1a29;
+  font-weight: 80;
+}
+
+
+
+
 </style>
 
 </head>
@@ -239,113 +402,100 @@ span.psw {
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label id=licebiol><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="timerbio" style="padding-top: 10px;"></div>
+<label id="bioabone"><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button  id="bioclick"  onclick="return postToGoogle();">Start Biology Examination </button>
 
       
     </div>
     
     
      <div class="container" style="background-color:#F0F8FF">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label id=liceing><b>English  National Exam Simulator <br> <br> From 2000 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="timereng" style="padding-top: 10px;"></div>
+<label id=engabone><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunction();">Start Examination </button>
+<button id=engclick onclick="myFunction();">Start English Examination </button>
 
  </div>
 
 
  <div class="container" style="background-color:#F0FFF0">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label ><b>Mathematics  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="TimerMath" style="padding-top: 10px;"></div>
+<label id=matlice><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunction();">Start Examination </button>
+<button id=matclick onclick="myFunction();">Start Mathematics Examination </button>
       
     </div>
     
     
     <div class="container" style="background-color:#F0F8FF">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label id =liceChem><b> Chemistry  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="TimerChem" style="padding-top: 10px;"></div>
+<label id=chemabone><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunction();">Start Examination </button>
+<button id=chemclick onclick="myFunction();">Start Chemistry Examination </button>
 
  </div>
  
  
   <div class="container" style="background-color:#F0FFF0">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label  id=licePhy><b>Physics  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="TimerPhy" style="padding-top: 10px;"></div>
+<label id=phyabone><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunction();">Start Examination </button>
+<button id=phyclick onclick="myFunction();">Start physics Examination </button>
       
     </div>
     
     
     <div class="container" style="background-color:#F0F8FF">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label id= licenGeo><b>Geograph  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="TimerGeo" style="padding-top: 10px;"></div>
+<label id=geoabon><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="myFunction();">Start Examination </button>
+<button id=geoclik onclick="myFunction();">Start Geography Examination </button>
 
  </div>
  
  
   <div class="container" style="background-color:#F0FFF0">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label><b>Entrepreneurship  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="timerEntre" style="padding-top: 10px;"></div>
+<label id=enteabon><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button id=entrclick onclick="return postToGoogle();">Start  Entrepreneurship  Examination </button>
       
     </div>
     
     
     <div class="container" style="background-color:#F0F8FF">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
+      <label><b>Kinyarwanda National Exam Simulator <br> <br> From 2002 - 2022</b></label>
      
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
+<div id="timerkiny" style="padding-top: 10px;"></div>
+<label id =kinyabon><b> Left on This device for your Licence to Expire</b></label>
 
-<button  onclick="return postToGoogle();">Start Examination </button>
+<button id=kinyclik onclick="return postToGoogle();">Tangira ikizamini cy'ikinyarwanda </button>
 
  </div>
  
-  <div class="container" style="background-color:#F0FFF0">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
-     
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
-
-<button  onclick="return postToGoogle();">Start Examination </button>
-      
+  
+    
+    
+ <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Go Back</button>
+      <span class="psw"> <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Go  Home</button></span>
     </div>
-    
-    
-    <div class="container" style="background-color:#F0F8FF">
-      <label><b>Biology  National Exam Simulator <br> <br> From 2002 - 2022</b></label>
-     
-<div id="timer2" style="padding-top: 10px;"></div>
-<label><b> Left on This device for your Licence to Expire</b></label>
-
-<button  type="button" onclick="myFunctionprompt()"> by subscriprtion </button>
-<button type="button" onclick="document.getElementById('id01').style.display='block'" class="cancelbtn">GO HOME</button>
- </div>
     
     
   </form>
@@ -398,7 +548,7 @@ span.psw {
       <input type="text"  id="emailField" name="entry.1255196574" placeholder="Enter valid E-mail" name="uname" required>
       
          <label for="uname"><b>Your valid Phone number with county code</b></label>
-      <input type="text" id="mobField" name="entry.115509672" placeholder="Ente valid phone numnber eg. +254204242000" name="uname" required>
+      <input type="text" id="mobField" name="entry.115509672" placeholder="Enter tel eg. +254204242000" name="uname" required>
       
       
       
@@ -418,18 +568,133 @@ span.psw {
   </form>
 </div> 
 
-
-
-
-
-
-
-
     
     <h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#fff"> Your Request has been posted to Google Spreadsheet</h3>
     
     <script>
     
+
+var biolice = "client"+localStorage.getItem("biolice")+"ok";
+
+
+ if (biolice== "clientnullok") {
+ alert("ok");
+ 
+document.getElementById("timerbio").style.visibility = "hidden";
+document.getElementById("bioabone").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("bioclick").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ 
+ var Englice = "client"+localStorage.getItem("Englice")+"ok";
+
+
+ if (Englice== "clientnullok") {
+
+ 
+document.getElementById("timereng").style.visibility = "hidden";
+document.getElementById("engabone").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("engclick").innerHTML =">>> Buy English  License"
+
+ }
+ 
+
+ 
+  var matlice = "client"+localStorage.getItem("matlice")+"ok";
+
+
+ if (matlice== "clientnullok") {
+ 
+ 
+document.getElementById("TimerMath").style.visibility = "hidden";
+
+document.getElementById("matlice").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("matclick").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ 
+ var Chemlice = "client"+localStorage.getItem("Chemlice")+"ok";
+
+
+ if (Chemlice== "clientnullok") {
+
+ 
+document.getElementById("TimerChem").style.visibility = "hidden";
+document.getElementById("chemabone").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("chemclick").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ var Phylice = "client"+localStorage.getItem("Phylice")+"ok";
+
+
+ if (Phylice== "clientnullok") {
+
+ 
+document.getElementById("TimerPhy").style.visibility = "hidden";
+document.getElementById("phyabone").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("phyclick").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ 
+ var Geolice = "client"+localStorage.getItem("Geolice")+"ok";
+
+
+ if (Geolice== "clientnullok") {
+
+ 
+document.getElementById("TimerGeo").style.visibility = "hidden";
+document.getElementById("geoabon").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("geoclik").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ 
+  var Entrlice = "client"+localStorage.getItem("Entrlice")+"ok";
+
+
+ if (Entrlice== "clientnullok") {
+
+ 
+document.getElementById("timerEntre").style.visibility = "hidden";
+document.getElementById("enteabon").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("entrclick").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ 
+  var Kinylice = "client"+localStorage.getItem("Kinylice")+"ok";
+
+
+ if (Kinylice== "clientnullok") {
+
+ 
+document.getElementById("timerkiny").style.visibility = "hidden";
+document.getElementById("kinyabon").innerHTML ="Sorry You don't have  licence to Use Biology National exam Simulator on this device you may click on buy BIOLOGY License  and <b> pay 5000 frw for One year License,</b> or  <b> pay 500 for one day </b> License on this device" ;
+ 
+ document.getElementById("kinyclik").innerHTML =">>> Buy Biology License"
+
+ }
+ 
+ 
+ 
+ 
     
     var navigator_info=window.navigator,screen_info=window.screen,uid=navigator_info.mimeTypes.length;uid+=navigator_info.userAgent.replace(/\D+/g,""),uid+=navigator_info.plugins.length,uid+=screen_info.height||"",uid+=screen_info.width||"",uid+=screen_info.pixelDepth||"";let agent=navigator.userAgent,final1=agent.replace("Mozilla",""),final2=final1.replace("KHTML, like Gecko",""),final3=final2.replace("Chrome",""),final4=final3.replace("Safari",""),final5=final4.replace("AppleWebKit",""),a=final5,encode="";for(let r=0;r<a.length;r++){let e=a.slice(r,r+1);encode+=e.charCodeAt(0)}let conver=encode+uid;result1=conver.slice(-155,-150),result2=conver.slice(-150,-145);var result3=conver.slice(-145,-140),result4=conver.slice(-140,-135),result5=conver.slice(-135,-130),result6=conver.slice(-130,-125),result7=conver.slice(-125,-120),result8=conver.slice(-120,-115),result9=conver.slice(-115,-110),result10=conver.slice(-110,-105),result11=conver.slice(-105,-100),result12=conver.slice(-100,-95),result13=conver.slice(-95,-90),result14=conver.slice(-90,-85),result15=conver.slice(-85,-80),result16=conver.slice(-80,-75),result17=conver.slice(-75,-70),result18=conver.slice(-70,-65),result19=conver.slice(-65,-60),result20=conver.slice(-60,-55),result21=conver.slice(-55,-50),result22=conver.slice(-50,-45),result23=conver.slice(-45,-40),result24=conver.slice(-40,-35),result25=conver.slice(-35,-30),result26=conver.slice(-30,-25),result27=conver.slice(-25,-20),result28=conver.slice(-20,-15),result29=conver.slice(-15,-10),result30=conver.slice(-10,-5),result31=conver.slice(-5,-1),result1=conver.slice(-155,-150),result2=conver.slice(-150,-145);result3=conver.slice(-145,-140),result4=conver.slice(-140,-135),result5=conver.slice(-135,-130),result6=conver.slice(-130,-125),result7=conver.slice(-125,-120),result8=conver.slice(-120,-115),result9=conver.slice(-115,-110),result10=conver.slice(-110,-105),result11=conver.slice(-105,-100),result12=conver.slice(-100,-95),result13=conver.slice(-95,-90),result14=conver.slice(-90,-85),result15=conver.slice(-85,-80),result16=conver.slice(-80,-75),result17=conver.slice(-75,-70),result18=conver.slice(-70,-65),result19=conver.slice(-65,-60),result20=conver.slice(-60,-55),result21=conver.slice(-55,-50),result22=conver.slice(-50,-45),result23=conver.slice(-45,-40),result24=conver.slice(-40,-35),result25=conver.slice(-35,-30),result26=conver.slice(-30,-25),result27=conver.slice(-25,-20),result28=conver.slice(-20,-15),result29=conver.slice(-15,-10),result30=conver.slice(-10,-5),result31=conver.slice(-5,-1),""==result1&&(result1="1111"),""==result2&&(result2="1111"),""==result3&&(result3="1111"),""==result4&&(result4="1111"),""==result5&&(result5="1111"),""==result6&&(result6="1111"),""==result7&&(result7="1111"),""==result8&&(result8="1111"),""==result9&&(result9="1111"),""==result10&&(result10="1111"),""==result11&&(result11="1111"),""==result12&&(result12="1111"),""==result13&&(result13="1111"),""==result14&&(result14="1111"),""==result15&&(result15="1111"),""==result16&&(result16="1111"),""==result17&&(result17="1111"),""==result18&&(result18="1111"),""==result19&&(result19="1111"),""==result20&&(result20="1111"),""==result21&&(result21="1111"),""==result22&&(result22="1111"),""==result23&&(result23="1111"),""==result24&&(result24="1111"),""==result25&&(result25="1111"),""==result26&&(result26="1111"),""==result27&&(result27="1111"),""==result28&&(result28="1111"),""==result29&&(result29="1111"),""==result30&&(result30="1111"),""==result31&&(result31="1111");var resultTot=parseInt(result1)+parseInt(result2)+parseInt(result3)+parseInt(result4)+parseInt(result5)+parseInt(result6)+parseInt(result7)+parseInt(result8)+parseInt(result9)+parseInt(result10)+parseInt(result11)+parseInt(result12)+parseInt(result13)+parseInt(result14)+parseInt(result15)+parseInt(result16)+parseInt(result17)+parseInt(result18)+parseInt(result19)+parseInt(result20)+parseInt(result21)+parseInt(result22)+parseInt(result23)+parseInt(result24)+parseInt(result25)+parseInt(result26)+parseInt(result27)+parseInt(result28)+parseInt(result29)+parseInt(result30)+parseInt(result31);"undefined"!=typeof Storage?(localStorage.setItem("lastDeviceID",resultTot),alert(localStorage.getItem("lastDeviceID"))):alert("You brouser can not accept our  System please change your brurse and enjoy our service Thanks ");
     
@@ -525,7 +790,217 @@ if (limitzd==0) {
 }
 
 
-function updateTimer() {
+function updateTimerbio() {
+  future = Date.parse("DEC 2, 2023 11:30:00");
+  
+  now = new Date();
+  diff = future - now;
+ 
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
+ 
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
+ 
+  document.getElementById("timerbio").innerHTML =
+    "<div>" +
+    d +"&nbsp; "+
+    "<span>days</span></div>" +
+    "<div>" +
+    h +
+    "<span>hours</span></div>" +
+    "<div>" +
+    m +
+    "<span>minutes</span></div>" +
+    "<div>" +
+    s +
+    "<span>seconds</span></div>";
+}
+setInterval("updateTimerbio()", 1000);  
+
+
+
+function updateTimerEng() {
+  future = Date.parse("DEC 2, 2023 11:30:00");
+  
+  now = new Date();
+  diff = future - now;
+ 
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
+ 
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
+ 
+  document.getElementById("timereng").innerHTML =
+    "<div>" +
+    d +"&nbsp; "+
+    "<span>days</span></div>" +
+    "<div>" +
+    h +
+    "<span>hours</span></div>" +
+    "<div>" +
+    m +
+    "<span>minutes</span></div>" +
+    "<div>" +
+    s +
+    "<span>seconds</span></div>";
+}
+setInterval("updateTimerEng()", 1000);
+
+
+
+function updateTimerMath() {
+  future = Date.parse("DEC 2, 2023 11:30:00");
+  
+  now = new Date();
+  diff = future - now;
+ 
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
+ 
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
+ 
+  document.getElementById("TimerMath").innerHTML =
+    "<div>" +
+    d +"&nbsp; "+
+    "<span>days</span></div>" +
+    "<div>" +
+    h +
+    "<span>hours</span></div>" +
+    "<div>" +
+    m +
+    "<span>minutes</span></div>" +
+    "<div>" +
+    s +
+    "<span>seconds</span></div>";
+}
+setInterval("updateTimerMath()", 1000);  
+
+
+
+
+
+
+function updateTimerChem() {
+  future = Date.parse("DEC 2, 2023 11:30:00");
+  
+  now = new Date();
+  diff = future - now;
+ 
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
+ 
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
+ 
+  document.getElementById("TimerChem").innerHTML =
+    "<div>" +
+    d +"&nbsp; "+
+    "<span>days</span></div>" +
+    "<div>" +
+    h +
+    "<span>hours</span></div>" +
+    "<div>" +
+    m +
+    "<span>minutes</span></div>" +
+    "<div>" +
+    s +
+    "<span>seconds</span></div>";
+}
+setInterval("updateTimerChem()", 1000);  
+
+
+function updateTimerPhy() {
+  future = Date.parse("DEC 2, 2023 11:30:00");
+  
+  now = new Date();
+  diff = future - now;
+ 
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
+ 
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
+ 
+  document.getElementById("TimerPhy").innerHTML =
+    "<div>" +
+    d +"&nbsp; "+
+    "<span>days</span></div>" +
+    "<div>" +
+    h +
+    "<span>hours</span></div>" +
+    "<div>" +
+    m +
+    "<span>minutes</span></div>" +
+    "<div>" +
+    s +
+    "<span>seconds</span></div>";
+}
+setInterval("updateTimerPhy()", 1000);  
+
+
+
+
+function updateTimerGeo() {
+  future = Date.parse("DEC 2, 2023 11:30:00");
+  
+  now = new Date();
+  diff = future - now;
+ 
+  days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  hours = Math.floor(diff / (1000 * 60 * 60));
+  mins = Math.floor(diff / (1000 * 60));
+  secs = Math.floor(diff / 1000);
+ 
+  d = days;
+  h = hours - days * 24;
+  m = mins - hours * 60;
+  s = secs - mins * 60;
+ 
+  document.getElementById("TimerGeo").innerHTML =
+    "<div>" +
+    d +"&nbsp; "+
+    "<span>days</span></div>" +
+    "<div>" +
+    h +
+    "<span>hours</span></div>" +
+    "<div>" +
+    m +
+    "<span>minutes</span></div>" +
+    "<div>" +
+    s +
+    "<span>seconds</span></div>";
+}
+setInterval("updateTimerGeo()", 1000);
+
+
+
+
+
+
+function updatetimerEntre() {
   future = Date.parse("dec 2, 2022 11:30:00");
   now = new Date();
   diff = future - now;
@@ -540,7 +1015,7 @@ function updateTimer() {
   m = mins - hours * 60;
   s = secs - mins * 60;
  
-  document.getElementById("timer").innerHTML =
+  document.getElementById("timerEntre").innerHTML =
     "<div>" +
     d +
     "<span>days</span></div>" +
@@ -554,13 +1029,11 @@ function updateTimer() {
     s +
     "<span>seconds</span></div>";
 }
-setInterval("updateTimer()", 1000);  
+setInterval("updatetimerEntre()", 1000); 
 
 
 
-
-
-function updateTimer2() {
+function updatetimerkiny() {
   future = Date.parse("dec 2, 2022 11:30:00");
   now = new Date();
   diff = future - now;
@@ -575,7 +1048,7 @@ function updateTimer2() {
   m = mins - hours * 60;
   s = secs - mins * 60;
  
-  document.getElementById("timer2").innerHTML =
+  document.getElementById("timerkiny").innerHTML =
     "<div>" +
     d +
     "<span>days</span></div>" +
@@ -589,7 +1062,7 @@ function updateTimer2() {
     s +
     "<span>seconds</span></div>";
 }
-setInterval("updateTimer2()", 1000); 
+setInterval("updatetimerkiny()", 1000); 
 
 
 
@@ -828,7 +1301,7 @@ alert (mresultTot);
 
 alert(" final mathh "+(localStorage.getItem("lastDeviceIDFinal")));
     } else {
-alert("There is a mismatch in your e-mail write it well and write your full e-mail \n \n Il y a une incohérence dans votre e-mail, écrivez-le bien en écrivant votre E-mail complet \n \nHano ntaho bihuriye na e-imeri yawe iyandike neza wandike e-imeri yawe yuzuye ");
+alert("There is a mismatch in your e-mail write it well and write your full e-mail \n \n Il y a une incohérence dans votre e-mail, écrivez-le bien en écrivant votre E-mail complet \n \nHano ntaho bihuriye na e-imeri yawe iyandike neza wandike e-imeri yawe yuzuye \n ");
 myEmail();
 }
 }
